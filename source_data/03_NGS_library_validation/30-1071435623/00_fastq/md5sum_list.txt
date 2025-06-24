@@ -1,0 +1,6 @@
+8cd2cd6a64f23c7dac6f5df1a76cb30b  ./CDK2_R2_001.fastq.gz
+1cbd46c4ad20b3b8a92218c313bd5d1b  ./CDK1_R1_001.fastq.gz
+902ab3d2a3b19d2e8da31dd484b787a9  ./CDK3_R2_001.fastq.gz
+673b88d6aa4a0a1ddd844d72fde96c25  ./CDK1_R2_001.fastq.gz
+d138575caa32ff79569fb4da5e2f8aff  ./CDK2_R1_001.fastq.gz
+14ef83cbb8488e5d6c372dde8a553810  ./CDK3_R1_001.fastq.gz
