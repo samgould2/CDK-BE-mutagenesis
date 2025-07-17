@@ -1,0 +1,6 @@
+Target	Reference	RMSD	AlignedAtoms	AlignmentCycles	RMSD_pre_refinement	No_atoms_pre_refinement	Raw_score	No_residues_aligned
+cdk7_catalytic	cdk9_catalytic	1.2096319198608398	740	5	2.41874623298645	894	304.5	139
+cdk8_catalytic	cdk9_catalytic	0.9228031635284424	631	5	3.437668561935425	859	245.5	139
+cdk13_catalytic	cdk9_catalytic	1.1054164171218872	799	5	1.8492118120193481	944	413.5	147
+cdk12_catalytic	cdk9_catalytic	0.9457390904426575	751	5	2.4801025390625	962	409.5	147
+cdk19_catalytic	cdk9_catalytic	0.8471339344978333	625	5	3.9500927925109863	892	245.0	138
