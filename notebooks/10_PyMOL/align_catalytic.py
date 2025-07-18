@@ -97,16 +97,20 @@ for sel in set1:
 
         #hide other organics
         cmd.hide("everything", f"{n} and organic and not {n}_ligand")
+        #cmd.disable(f"{n} and organic and not {n}_ligand")
 
         if HIDE_CYCLINS==True:
             cmd.hide("everything", f"{n}_cyclin")
+            #cmd.disable(f"{n}_cyclin")
 
 
     cmd.hide("everything", f"everything_{n}")
+    #cmd.disable(f"everything_{n}")
     
 
 #also hide waters
 cmd.hide("everything", "resn HOH")
+#cmd.disable("resn HOH")
 
 
 #-------SET TRANSPARENCY-----
@@ -145,3 +149,15 @@ cmd.set_view((
 
 cmd.set("ambient", 0.5)
 cmd.set("ray_trace_mode", 1)
+
+#----and helping with memory-----
+
+#cmd.disable("all")
+
+#for sel in set1:
+ #   n = sel.split('_')[0].upper()
+  #  if n!='CDK19':
+  #      cmd.enable(f"{n}_ligand")
+    
+   # cmd.enable(f"{n}_full")
+
