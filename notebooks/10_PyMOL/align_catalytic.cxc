@@ -1,0 +1,52 @@
+# ChimeraX script (can be saved as .cxc and run in GUI or headless)
+# --- Reinitialize ---
+close session
+
+# --- Load Structures ---
+open 6xd3 
+open 5cei 
+open alphafold:Q9BWU1 
+open 8k5r 
+open 8bug 
+open 7nxj 
+open 1QMZ
+
+#---alignment---
+matchmaker #1-6 to #7/A
+
+#--coloring---
+
+color #1 #00ffff
+color #2 #1f77b4
+color #3 #6495ed
+color #4 #9400d3
+color #5 #2ca02c
+color #6 #556b2f
+color #7 #DAA520
+
+#hide everything except for the CDK domains of these Structures#
+
+hide #1/I cartoon
+hide #1/H cartoon
+
+hide #2/B cartoon
+
+hide #4/B cartoon
+
+hide #5/A cartoon
+hide #5/D cartoon
+hide #5/G cartoon
+hide #5/C cartoon
+hide #5/F cartoon
+hide #5/I cartoon
+hide #5/E cartoon
+hide #5/H cartoon
+
+hide #6/B cartoon
+hide #6/D cartoon
+hide #6/C cartoon
+
+hide #3/A:351-502 cartoon
+hide #2/A:354-362 cartoons
+hide #6/A:1013-1023 cartoon
+

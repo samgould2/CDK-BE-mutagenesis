@@ -165,8 +165,10 @@ cmd.set_view((
  -75678.609375000, 76090.328125000, -20.000000000
 ))
 
-cmd.set("ambient", 0.5)
+cmd.set("ambient", 0.4)
 cmd.set("ray_trace_mode", 1)
+cmd.set("ray_shadows", 0)
+cmd.set("ray_transparency_depth", 2)
 
 #----and helping with memory-----
 
