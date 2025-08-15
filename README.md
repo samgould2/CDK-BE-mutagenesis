@@ -4,6 +4,7 @@
 
 ## Repository Structure:
 
+```
 ├── cluster_scripts
 ├── figures
 ├── notebooks
@@ -51,3 +52,4 @@
     ├── 19_gnomAD
     ├── 20_metapredict_disorder
     └── 21_dbNSFP
+```
