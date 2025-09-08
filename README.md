@@ -6,7 +6,7 @@
 
 ```
 ├── cluster_scripts #-------> contains .py and .sh scripts for NGS analysis on computing cluster
-├── figures #contains figure files (png and pdf images)
+├── figures #-------> contains figure files (png and pdf images)
 ├── notebooks #jupyter notebooks for analysis of screening data
 │   ├── 01_library_generation
 │   ├── 02_library_qc_and_counts
