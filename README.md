@@ -5,9 +5,9 @@
 ## Repository Structure:
 
 ```
-├── cluster_scripts
-├── figures
-├── notebooks
+├── cluster_scripts #-------> contains .py and .sh scripts for NGS analysis on computing cluster
+├── figures #-------> contains figure files (png and pdf images)
+├── notebooks #-------> jupyter notebooks for analysis of screening data
 │   ├── 01_library_generation
 │   ├── 02_library_qc_and_counts
 │   ├── 03_editing_analysis
@@ -18,7 +18,7 @@
 │   ├── 08_off-targets
 │   ├── 09_analysis_and_viz
 │   └── 10_PyMOL
-├── screening_data
+├── screening_data #-------> data generated from base editing screens
 │   ├── 01_count_tables
 │   ├── 02_RPM_tables
 │   ├── 03_LFC_FDR_tables
@@ -30,7 +30,7 @@
 │   ├── KB_compound_mut_screen_data
 │   ├── SY_5609_screen_data
 │   └── sample_key.xlsx
-└── source_data
+└── source_data #-------> other data generated for project & external data sources used for analysis
     ├── 01_library_generation_files
     ├── 02_library
     ├── 03_NGS_library_validation
