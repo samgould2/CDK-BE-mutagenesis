@@ -2,6 +2,8 @@
 
 ## Author: Sam Gould
 
+![Screen Overview](figures/figure1_v4.png)
+
 ## Repository Structure:
 
 ```
