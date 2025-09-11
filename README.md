@@ -4,6 +4,17 @@
 
 ![Screen Overview](figures/figure1_v4.png)
 
+This repository includes the code, figures, and analysis pipelines used in this project.
+
+This repo is organized into 5 main directories:
+1. **cluster_scripts**: This folder contains .py and .sh scripts used for NGS analysis on the Koch Institute computing cluster. This includes scripts for counting gRNAs and quantifying sensor editing.
+2. **figures**: This folder contains figure files (.png and .pdf images)
+3. **notebooks**: This folder contains Jupyter notebooks used for analysis of screening data.
+4. **screening_data**: This folder contains processed data generated from base editing screens, including processed sensor editing data and LFC tables for all screens.
+5. **source_data**: This folder contains other data generated for this proejct, as well as external data sources collected for analysis purposes.
+
+For questions relating to this repository, please email the author: samgould@mit.edu
+
 ## Repository Structure:
 
 ```
